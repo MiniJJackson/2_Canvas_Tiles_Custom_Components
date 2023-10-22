@@ -5,7 +5,7 @@ const Course = props => {
     return  (
         /* Build up your tile structure here */
         <View style={styles.tile}>
-            <Image style={styles.tileImage} source={require('./../assets/courseImage/macbook-code.jpg')}/>
+            <Image style={styles.tileImage} source={require('./../assets/courseImages/macbook-code.jpg')}/>
 
             <View style={styles.tileDetail}>
                 <Text styele={styles.tileHeader}>{props.title}</Text>
