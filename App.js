@@ -7,10 +7,15 @@ export default function App() {
   return (
     <ScrollView style={styles.container}> 
     {/* scrollview-container that allows you to scroll */}
+
       <Text style={styles.header1}>Courses</Text>
+      {/* header1 - title*/}
 
       <View style={styles.tilesContainer}>
+      {/* container for tiles */}
+
         <Course title="Development 1" subtitle="YPO365" />
+        {/* tile nr.1 - from components Course.js */}
         
         <StatusBar style="auto" />
       </View>  
@@ -39,6 +44,5 @@ const styles = StyleSheet.create({
     flexGrow: 0,
     flexShrink: 0,
     justifyContent: 'space-evenly',
-
   }
 });
