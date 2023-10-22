@@ -14,13 +14,13 @@ export default function App() {
       <View style={styles.tilesContainer}>
       {/* container for tiles */}
 
-        <Course title="Development 1" subtitle="YPO365" />
+        <Course title="Development 1" subtitle="YPO365" /*image="source=require(./../assets/courseImages/macbook-code.jpg)"*//>
         {/* tile nr.1 - from components Course.js */}
         <Course title="Design 3" subtitle="YP1234" />
         <Course title="Communicatie 3" subtitle="YP9988" />
         <Course title="Ethiek" subtitle="YP3256" />
         <Course title="Ondernemerschap 1" subtitle="YP2233" />
-        
+
         <StatusBar style="auto" />
       </View>  
 
